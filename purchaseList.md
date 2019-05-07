@@ -1,4 +1,5 @@
-This was realized in France. Good to remember also that sector voltage in France is 220v.
+This was realized in France. Good to remember also that sector voltage in France is 220v. 
+CAUTION! If you are using electricity, in particular when power comes from sector, you should know exactly what you are doing or get advice from a certified specialist. Death may occur otherwise.
 
 ## Ingredients
 
