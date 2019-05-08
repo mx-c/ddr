@@ -6,10 +6,10 @@ Schema of the created design:
 
 ![PCB General Design](./assets/pcb_general_design.png)
 
-`R1`, `R2`, `R3`: Resistors
-`T`: NPN Transistor (B,C,E stand respectively for Base, Collector, Emitter)
-`Button Pad`: Push button consisting of a button pad pushed when stepped on
-`Arduino Leonardo`: The microcontroller we decided to use
+- `R1`, `R2`, `R3`: Resistors
+- `T`: NPN Transistor (B,C,E stand respectively for Base, Collector, Emitter)
+- `Button Pad`: Push button consisting of a button pad pushed when stepped on
+- `Arduino Leonardo`: The microcontroller we decided to use
 
 ## Constraints that led to the design
 
