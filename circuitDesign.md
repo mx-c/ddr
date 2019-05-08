@@ -39,7 +39,9 @@ Amperage: 60-65 mA
 Voltage: 12 V (steadily provided by the transformer)
 
 > Note: Considering the 30cm strip as the load of our local circuit, it can be mocked by a `200Ω` resistor:
-> `R = U / I = 12V / 0.06A = 200Ω`
+> 
+>`R = U / I = 12V / 0.06A = 200Ω`
+>
 > For some tests on the breadboard, using a resistor may be easier than connecting to the test strip.
 > In case of bad manipulation, it also avoids damaging it.
 
