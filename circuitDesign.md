@@ -2,7 +2,7 @@
 
 ## General design
 
-Schema of the created design:
+Schema of the created design for the PCB of one pad:
 
 ![PCB General Design](./assets/pcb_general_design.png)
 
