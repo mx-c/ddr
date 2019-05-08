@@ -57,7 +57,7 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 
 ## Assets (tools)
 
-### Electronics
+### Electronics assets
 - 1 [multimeter](https://www.amazon.fr/Velleman-dvm835-Multim%C3%A8tre-num%C3%A9rique-500-1999-points/dp/B07BDVQ951) (resistance, voltage, intensity, led testing and sound upon connectivity). 
 - 1 [soldering Iron](https://www.velleman.eu/products/view/?country=fr&lang=fr&id=349590)
 - 1 [breadboard](https://fr.farnell.com/mcm/21-18936/carte-de-prototypage-55-x-83-mm/dp/2855018?st=breadboard) (for testing purposes)
@@ -65,7 +65,7 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 - 2 aligator clips (for testing purposes)
 - 1 cutter
 
-### Structure
+### Structure assets
 - 1 [drill](https://www.leroymerlin.fr/v3/p/perceuse-l1501561703?queryredirect=perceuse)
 - [a drill-bit set for wood](https://www.leroymerlin.fr/v3/p/produits/lot-de-8-meches-a-bois-robustline-diam-3-a-10-mm-bosch-e1501847408)
 - 1 [wood scissors (width: 20mm)](https://www.leroymerlin.fr/v3/p/produits/ciseaux-de-sculpteur-dexter-de-16-a-20-mm-e56114)
@@ -80,11 +80,11 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 - 1 bucket
 - 1 wooden board to cut with cutter on (recycled)
 
-### Fastening
+### Fastening assets
 - 1 big screwdrivers
 - 1 small screwdriver
 
-### Finish and rendering
+### Finish and rendering assets
 - 1 small [paint roll](https://www.leroymerlin.fr/v3/p/produits/kit-d-outils-pour-peinture-mur-et-plafond-dexter-e1401293955)
 - 1 [paint brush](https://www.leroymerlin.fr/v3/p/produits/pinceau-plat-pour-peindre-dexter-30-mm-e1401395484)
 - 1 [paint tray](https://www.leroymerlin.fr/v3/p/produits/bac-a-peinture-rouleau-180-mm-nespoli-e183535)
