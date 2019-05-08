@@ -15,30 +15,33 @@ Schema of the created design:
 
 ### Power circuit / logic circuit
 
-We exclude using common supply of the arduino and the lights. 
+We exclude using arduino as power supply for the lights. 
 It could be performed by carefully choosing LEDs and agencing them, but would limit us a lot in power used. 
 Also, it would rapidly burn the pins of the arduino, not particularly designed to live long as power supply.
 
 It means that we won't use the voltage output pins of the arduino (neither 3.3v nor 5v).
-The only relation of the arduino with the circuit closed by the pad will be via its digital pin receiving HIGH/LOW.
+The only relation of the arduino with the closed circuit by the pad will be via its digital pin receiving HIGH/LOW.
 
 ### Power supply
 
-Goal is to use a steady voltage source, hence choice of sector. 
+Goal is to use a steady voltage source, hence choice of main supply. Obviously, we need a transformer to convert AC of the main supply to DC, with an appropriate voltage.
+
 Battery is safer but inappropriate: would discharge relatively rapidly, and voltage supply decreases with discharge rate.
 This modifies the equilibrium state of the circuit's components.
 
-The transformer supplied with the LED strips is perfect for our purpose. 
+The AC/DC transformer supplied with the LED strips is perfect for our purpose. 
+
 - supplied voltage: 12 V
 - maximum amperage drawn: 1A
 
 ### LED power consumption
 
 Tests showed that a strip of 30 cm, containing 9 LEDs, consumes `0.75W` when directly wired with the provided transformer.
-Amperage: 60-65 mA
-Voltage: 12 V (steadily provided by the transformer)
 
-> Note: Considering the 30cm strip as the load of our local circuit, it can be mocked by a `200Ω` resistor:
+- Amperage: 60-65 mA
+- Voltage: 12 V (steadily provided by the transformer)
+
+> Note: Considering the 30cm strip as the load of our local circuit, it can be mocked in tsts by a `200Ω` resistor:
 > 
 >`R = U / I = 12V / 0.06A = 200Ω`
 >
@@ -52,11 +55,11 @@ NPN seems the right choice to me, as no current is flowing when pads are up (mos
 Low (but enough) current is carried to the base B when the button pad is pressed. It saturates the transistor.
 It enables an almost closed circuit between collector C and emitter E, and lets the current flow.
 
-As for the model, my choice goes to using one I already got (`BC337`).
+As for transistor model, my choice goes to using one I already got (`BC337`).
 
 ### Arduino digital sense requirement
 
-When the circuit is open, Arduino digital pin needs to be linked to the ground. It makes sure internally that current
+When the circuit is open, Arduino digital pin needs to be wired to the ground. It makes sure internally that current
 at the pin is LOW by comparison to ground value. Otherwise, digital pin gets confused and program will receive erratically `HIGH` and `LOW` values.
 
 Hence, it requires a connection to the ground, the amount of current being kept low by a so called pull down resistor.
@@ -71,15 +74,16 @@ Arduino has voltage/amperage [maximum ratings](https://playground.arduino.cc/Mai
 - Digital pins: `40 mA`
 - Ground: `400 mA`
 
-Assuming the four 30cm-strips of the 4 pads get switched on at the same time, we are well below 400 mA of total current to be grounded.
-For this reasonning to be correct, It implies that current drawn via other parts of the circuit is insignificant.
+Ground limit of 400 mA seems not to be an issue. Assuming the four 30cm-strips of the 4 pads get switched on at the same time, we are well below 400 mA of total current to be grounded. For this reasonning to be correct, It implies that current drawn via other parts of the circuit is insignificant. We shall make sure of this in following sections.
 
-Concerning Digital pins, it means that with a maximum voltage of 12 volts, pin must be protected by a `300Ω resistor` at least.
+Concerning Digital pins limited to 40mA, it means that with a maximum voltage of 12 volts, each pin must be protected by a `300Ω resistor` at least.
+
+### Arduino HIGH/LOW signals
 
 The Arduino Leonardo is built around atmega32u4 microchip, that tolerates voltage up to 5.5V.
 Also, it assimilates voltage to `HIGH` value only if above 3.5V.
 
-This is what leads to use a voltage devider with R2 and R3. Knowing that provided voltage is 12V, we need:
+This is what leads to use a voltage devider with R2 and R3. Knowing that provided voltage is 12V, R2 must dissipate between 6.5v and 8.5v.
 ```
 (12-5.5)/12< R2/R3 < (12-3.5)/12
 <=> 0.54 < R2 / R3 < 0.71
@@ -120,12 +124,13 @@ Then we find our ± 30x amplification factor.
 Simplest and optimal closest Resistor value for R1 is therefore 4.7 kΩ.
 
 It means that when circuit is closed.
-current going through Load: `54 mA`
-current going through transistor's base: `U/R = 12/4700 = 2.5 mA`
+- current going through Load: `54 mA`
+- current going through transistor's base: `U/R = 12/4700 = 2.5 mA`
+This respects the idea that close to 100% of current is drawn by the LED strip.
 
 #### R2 and R3
 
-R2 depends on R3. I consider that if R2 + R3 ± 100 kΩ it is reasonnable as we now have:
+R2 depends on R3. I consider that having R2 + R3 ± 100 kΩ is reasonnable. Let's compute:
 - current going through Load: `54 mA`
 - current going through transistor's base: `U/R = 12/4700 = 2.5 mA`
 - current going through R2 then R3: `U/R = 12/100000 = 0.12 mA`
@@ -155,10 +160,10 @@ Now you can go get [electronic supplies](./purchaseList.md#electronics-and-wirin
 
 ## Conclusion
 
-At this stage, you must reproduce the same board 4 times. 
-Each will be connected to the same input line and ground line.
-Each will be connected to its LED strip.
-Each will be connected to a different input pin of the arduino.
+At this stage, you are advised to make a complete board, test it thoroughly, then reproduce for the 3 other boards. 
+Each board will be connected to the same input line and ground line.
+Each board will be connected to its dedicated LED strip.
+Each will be connected to a dedicated input pin of the arduino.
 
-When one button pad is pressed, the HIGH signal is sent to the dedicated pin, and can be used in a program. At the same time, the connected LED strip lights on.
+For each circuit, when its button pad is pressed, the HIGH signal is sent to the dedicated pin, and can be used in a program. At the same time, the connected LED strip lights on.
 
