@@ -156,7 +156,7 @@ Here is the real life output:
 At this stage, you must reproduce the same board 4 times. 
 Each will be connected to the same input line and ground line.
 Each will be connected to its LED strip.
-Each will be connected to a different pin of the arduino.
+Each will be connected to a different input pin of the arduino.
 
-When one button pad is pressed, the HIGH signal is sent to the dedicated pin, and can be used in a program. 
+When one button pad is pressed, the HIGH signal is sent to the dedicated pin, and can be used in a program. At the same time, the connected LED strip lights on.
 
