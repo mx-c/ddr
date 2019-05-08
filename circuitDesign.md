@@ -20,8 +20,8 @@ Battery is safer but inappropriate: would discharge relatively rapidly, and volt
 This modifies the equilibrium state of the circuit's components.
 
 The transformer supplied with the LED strips is perfect for our purpose. 
-supplied voltage: 12 V
-maximum amperage drawn: 1A
+- supplied voltage: 12 V
+- maximum amperage drawn: 1A
 
 ### LED power consumption
 
@@ -46,7 +46,7 @@ As for the model, my choice goes to using one I already got (`BC337`).
 ### Arduino digital sense requirement
 
 When the circuit is open, Arduino digital pin needs to be linked to the ground. It makes sure internally that current
-at the pin is LOW by comparison to ground value. Otherwise, digital pin gets confused and program will receive erratically HIGH and LOW values.
+at the pin is LOW by comparison to ground value. Otherwise, digital pin gets confused and program will receive erratically `HIGH` and `LOW` values.
 
 Hence, it requires a connection to the ground, the amount of current being kept low by a so called pull down resistor.
 On the schema, R3 is the pull-down resistor.
@@ -57,16 +57,16 @@ As digital pins of Arduino have [100 Megohm impedance](https://www.arduino.cc/re
 ### Arduino voltage/amperage ratings
 
 Arduino has voltage/amperage [maximum ratings](https://playground.arduino.cc/Main/ArduinoPinCurrentLimitations/) above which it will grill something.
-Digital pins: `40 mA`
-Ground: `400 mA`
+- Digital pins: `40 mA`
+- Ground: `400 mA`
 
 Assuming the four 30cm-strips of the 4 pads get switched on at the same time, we are well below 400 mA of total current to be grounded.
 For this reasonning to be correct, It implies that current drawn via other parts of the circuit is insignificant.
 
-Concerning Digital pins, it means that with a maximum voltage of 12 volts, pin must be protected by a 300Ω resistor at least.
+Concerning Digital pins, it means that with a maximum voltage of 12 volts, pin must be protected by a `300Ω resistor` at least.
 
 The Arduino Leonardo is built around atmega32u4 microchip, that tolerates voltage up to 5.5V.
-Also, it assimilates voltage to HIGH value only if above 3.5V.
+Also, it assimilates voltage to `HIGH` value only if above 3.5V.
 
 This is what leads to use a voltage devider with R2 and R3. Knowing that provided voltage is 12V, we need:
 ```
