@@ -57,7 +57,7 @@ It enables an almost closed circuit between collector C and emitter E, and lets 
 
 As for transistor model, my choice goes to using one I already got (`BC337`).
 
-### Arduino digital sense requirement
+### Arduino digital input requirement
 
 When the circuit is open, Arduino digital pin needs to be wired to the ground. It makes sure internally that current
 at the pin is LOW by comparison to ground value. Otherwise, digital pin gets confused and program will receive erratically `HIGH` and `LOW` values.
