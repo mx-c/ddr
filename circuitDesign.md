@@ -149,7 +149,7 @@ Schema of the final design:
 ![PCB Final Design](./assets/pcb_final_design.png)
 
 
-Here is the real life output:
+Now you can go get [electronic supplies](./purchaseList.md#electronics-and-wiring-supplies) and [electronic tools])(./purchaseList.md#electronics-assets) and execute! Here is what it should look like:
 
 ![PCB_Real Commented](./assets/PCB_real_commented.jpeg)
 
