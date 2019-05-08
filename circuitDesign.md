@@ -1,6 +1,12 @@
 # Circuit design
 
 ## General design
+![PCB General Design](./assets/pcb_general_design.png)
+
+`R1`, `R2`, `R3`: Resistors
+`T`: NPN Transistor (B,C,E stand respectively for Base, Collector, Emitter)
+`Button Pad`: Push button consisting of a button pad pushed when stepped on
+`Arduino Leonardo`: The microcontroller we decided to use
 
 ## Constraints that led to the design
 
@@ -75,11 +81,18 @@ This is what leads to use a voltage devider with R2 and R3. Knowing that provide
 <=> 0.54R3 < R2 < 0.71R3
 ```
 
+## Visual summary of the constraints and resolution
+
+![PCB Annotated design](./assets/pcb_annotated_design.png)
+
+### Resolution
+
+First thing to determine is the highest value possible able for R1 able to saturate the transistor.
 
 
 
-
-
+## Decisions and final design
+![PCB Final Design](./assets/pcb_final_design.png)
 
 
 
