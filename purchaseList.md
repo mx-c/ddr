@@ -1,91 +1,90 @@
-This was realized in France, based on standards, units of that country. Good to also remember that sector voltage in France is 220v.
+This was realized in France (Lyon), based on standards, units of that country. Good to also remember that sector voltage in France is 220v.
 
 Below is what I used.
 
-I purchased part of these components and tools at local store, part via internet, borrowed some others. 
-You should not consider links as a suggestion, but merely examples to give you an idea of what it looks like and how much it may cost. Keep in mind that purchaising at local store will generally cost much more, but be immediately available.
+I purchased part of these components and tools at local store, part via internet, borrowed some others or used my own. 
+You should not consider links so much a specific suggestion, but merely examples to give you an idea of what it looks like and how much it may cost. Keep in mind that purchaising at local store will generally cost much more, but be immediately available.
 
 
 ## Raw material
 
 ### Electronics and wiring
-- 4 fuses 50 mA
-- 1 fuse 100 mA
-- 1 copper prototyping board 100 mm x 100 mm
-- 4 transistors BC337
+- 4 [fuses 50 mA](https://fr.farnell.com/schurter/0034-6001/fuse-pcb-50ma-250v-fast-acting/dp/1211989)
+- 1 [fuse 100 mA](https://fr.farnell.com/littelfuse/37001000430/fusible-tr5-quick-bfaible-100ma/dp/9515895)
+- 1 [prototyping board](https://www.digikey.fr/catalog/en/partgroup/7050-100-board/8117) for soldering 100 mm x 100 mm
+- *4 [transistors BC337](https://fr.farnell.com/multicomp/bc337/transistor-npn-to-92/dp/1574379)
 - 4 resistors 6600 Ohm
 - 8 resistors 47000 Ohm
-- * 6 3-wires junction (I use 221 serie wago, 8mm height)
-- * 10 or 20 2-wires junction (" ") depending some design choices
-- 1 cable clamp
-
-- 1 Arduino Leonardo
-- 1 wooden box with enough room to enclose the Arduino leonardo
-- 1  spray bottle of neoprene glue 200 ml
+- *6 [3-wires junction](https://www.leroymerlin.fr/v3/p/produits/5-minibornes-automatiques-a-levier-0-08-a-4-mm2-3-entrees-rigide-souple-wago-e1500746887) (I use 221 serie wago, 8mm height)
+- * 10 or 20 [2-wires junction](https://www.leroymerlin.fr/v3/p/produits/10-minibornes-automatiques-a-levier-0-08-a-4-mm2-2-entrees-rigide-souple-wago-e1500804633) 
+- 1 [cable clamp](https://www.leroymerlin.fr/v3/p/produits/lot-de-25-colliers-diam-2-a-50-mm-l-195-mm-e1400914882)
+- [1 Arduino Leonardo](https://www.ag-electronique.fr/modules-arduino/47-arduino-leonardo-velard-a000052-8058333491127.html)
+- 1  spray bottle of [neoprene glue](https://www.leroymerlin.fr/v3/p/produits/colle-aerosol-neoprene-multi-usages-sader-200ml-e35093) 200 ml
+- [insulating tape of different colors](https://www.leroymerlin.fr/v3/p/produits/lot-de-6-rubans-adhesifs-voltman-l-5-m-x-l-15-mm-e181273) (red, black, green, yellow, blue, orange)
+- 1.5 meters [RGB LED strip](https://www.leroymerlin.fr/v3/p/produits/kit-ruban-led-1-5m-multicolore-e1500922964) 
+- AC 220v -> DC 12v/1A (12W) transformer (comes with the LED strip)
+- 1 wooden box with enough room to enclose the Arduino leonardo (recycled)
 - common aluminium foil
 - 6 sheets of paper
-- insulating tape of different colors (red, black, green, yellow, blue, orange)
-- 2 meters RGB LED strip 
-- AC 220v -> DC 12v/1A (12W) transformer
 
 ### Fastening
 - solder
 - 24 screws Ø 7mm / 1.5mm length 
-- 32  screws 8mm / 25 mm length
-- 8 washers Ø 6mm inside hole ( Ø 20mm outside)
+- 32  screws  Ø 8mm / 25 mm length
+- [8 washers Ø 6mm inside hole ( Ø 20mm outside)](https://www.castorama.fr/rondelles-plates-larges-de-reparation-en-acier-au-carbone-o-6mm-10-pieces/3663602753995_CAFR.prd)
 
 ### Structure
 - 1 base board MDF 122 mm x 122 mm x 15mm
 - 5 stationary panels MDF 380 mm x 380 mm x 15 mm
 - 4 button panels MDF 380 mm x 380 mm x 10 mm
 - 4 riser panels Birch 30 mm x 30 mm x 3 mm
-- * cleat MDF 488 mm x 40 mm x 18 mm
-- * 6 meters phone insulating compriband with 3-7 mm expansion capacity
-- 1 sheet of low grit sandpaper (for chamfers)
+- *cleat MDF 488 mm x 40 mm x 18 mm (45° angles done with miter box)
+- [6 meters phone insulating compriband with 3-7 mm expansion capacity](https://www.amazon.fr/Compriband-%C3%A9tanche-fen%C3%AAtres-Largeur-15/dp/B07F812Z88)
+- 1 sheet of [low grit sandpaper](https://www.leroymerlin.fr/v3/p/produits/feuille-abrasive-230-x-280-mm-grains-40-e55263) (for chamfers)
 - 20 screw covers
-- 1 bottle of 250g wood glue 
+- 1 [bottle of wood glue](https://www.leroymerlin.fr/v3/p/produits/colle-a-bois-rapide-special-materiaux-sader-250g-e35131) 250g
 
 ### Finish and rendering
 
-- 0.5 L of white primer
-- 0.5 L of paint (colour of your choosing)
+- 0.5 L of white [primer](https://www.leroymerlin.fr/v3/p/produits/sous-couche-avant-peinture-sol-interieur-luxens-blanc-0-5-l-e1401134107)
+- 0.5 L of [paint](https://www.leroymerlin.fr/v3/p/produits/peinture-sol-interieur-haute-resistance-luxens-gris-galet-n-1-0-5-l-e1400829458) (colour of your choosing)
 - 1 sheet of high grit sandpaper
-- a big plastic to protect ground where you paint
+- a big [plastic tarpolin](https://www.leroymerlin.fr/v3/p/produits/peinture-droguerie/rouleau-pinceau-et-bache-de-protection/bache-ruban-de-masquage-et-combinaison-l1308221680) to protect ground where you paint
 
 
 ## Assets (tools)
 
 ### Electronics
-- 1 multimeter (resistance, voltage, intensity, led testing and sound upon connectivity). I Used Velleman DVM835 here. 
-- 1 soldering Iron
+- 1 [multimeter](https://www.amazon.fr/Velleman-dvm835-Multim%C3%A8tre-num%C3%A9rique-500-1999-points/dp/B07BDVQ951) (resistance, voltage, intensity, led testing and sound upon connectivity). 
+- 1 [soldering Iron](https://www.velleman.eu/products/view/?country=fr&lang=fr&id=349590)
 - 1 cutter
 - optional but recommended: drill and small circular saw blade fit for your drill
 - 2 aligator clips (for testing purposes)
-- 1 breadboard (for testing purposes)
+- 1 [breadboard](https://fr.farnell.com/mcm/21-18936/carte-de-prototypage-55-x-83-mm/dp/2855018?st=breadboard) (for testing purposes)
 
 ### Structure
-- 1 drill 
-- a drill-bit set for wood
-- 1 wood scissors (width: 20mm)
+- 1 [drill](https://www.leroymerlin.fr/v3/p/perceuse-l1501561703?queryredirect=perceuse)
+- [a drill-bit set for wood](https://www.leroymerlin.fr/v3/p/produits/lot-de-8-meches-a-bois-robustline-diam-3-a-10-mm-bosch-e1501847408)
+- 1 [wood scissors (width: 20mm)](https://www.leroymerlin.fr/v3/p/produits/ciseaux-de-sculpteur-dexter-de-16-a-20-mm-e56114)
 - 1 clamp
-- 1 miter box 
-- 1 hot glue gun
+- 1 [miter box](https://www.leroymerlin.fr/v3/p/produits/boite-a-onglet-manuelle-neuhofer-e1501676842) 
+- 1 [hot glue gun](https://www.castorama.fr/pistolet-a-colle-sans-fil-rapid-cg-270/3221633029948_CAFR.prd)
 - 1 wooden board to cut with cutter on
-- 1 tape measure
+- 1 [tape measure](https://www.castorama.fr/metre-a-ruban-facom-3-m-x-16-mm/3148517125001_CAFR.prd)
 - pencil, rubber, ruler
 - optional but recommanded for angle precision: compass
 - 1 bucket
-- 1 manual saw
-- optional but recommanded if you cut all panels yourself: jigsaw
+- 1 [manual saw](https://www.leroymerlin.fr/v3/p/produits/scie-universelle-e1500657807)
+- optional but recommanded if you cut all panels yourself: [jigsaw](https://www.castorama.fr/scie-sauteuse-bosch-pst7200e/3165140817837_CAFR.prd)
 
 ### Fastening
 - 1 big screwdrivers
 - 1 small screwdriver
 
 ### Finish and rendering
-- 1 small paint roll
-- 1 paint brush
-- 1 paint tray
+- 1 small [paint roll](https://www.leroymerlin.fr/v3/p/produits/kit-d-outils-pour-peinture-mur-et-plafond-dexter-e1401293955)
+- 1 [paint brush](https://www.leroymerlin.fr/v3/p/produits/pinceau-plat-pour-peindre-dexter-30-mm-e1401395484)
+- 1 [paint tray](https://www.leroymerlin.fr/v3/p/produits/bac-a-peinture-rouleau-180-mm-nespoli-e183535)
 - 1 towel
 
 
