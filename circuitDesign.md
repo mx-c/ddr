@@ -25,12 +25,12 @@ maximum amperage drawn: 1A
 
 ### LED power consumption
 
-Tests showed that a strip of 30 cm, containing 9 LEDs, consumes 0.75W when directly wired with the provided transformer.
+Tests showed that a strip of 30 cm, containing 9 LEDs, consumes `0.75W` when directly wired with the provided transformer.
 Amperage: 60-65 mA
 Voltage: 12 V (steadily provided by the transformer)
 
-> Note: Considering the 30cm strip as the load of our local circuit, it can be proxied by a 200Ω resistor:
-> R = U / I = 12V / 0.06A = 200Ω
+> Note: Considering the 30cm strip as the load of our local circuit, it can be mocked by a `200Ω` resistor:
+> `R = U / I = 12V / 0.06A = 200Ω`
 > For some tests on the breadboard, using a resistor may be easier than connecting to the test strip.
 > In case of bad manipulation, it also avoids damaging it.
 
@@ -41,7 +41,7 @@ NPN seems the right choice to me, as no current is flowing when pads are up (mos
 Low (but enough) current is carried to the base B when the button pad is pressed. It saturates the transistor.
 It enables an almost closed circuit between collector C and emitter E, and lets the current flow.
 
-As for the model, my choice goes to using one I already got (BC337).
+As for the model, my choice goes to using one I already got (`BC337`).
 
 ### Arduino digital sense requirement
 
@@ -57,8 +57,8 @@ As digital pins of Arduino have [100 Megohm impedance](https://www.arduino.cc/re
 ### Arduino voltage/amperage ratings
 
 Arduino has voltage/amperage [maximum ratings](https://playground.arduino.cc/Main/ArduinoPinCurrentLimitations/) above which it will grill something.
-Digital pins: 40 mA
-Ground: 400 mA
+Digital pins: `40 mA`
+Ground: `400 mA`
 
 Assuming the four 30cm-strips of the 4 pads get switched on at the same time, we are well below 400 mA of total current to be grounded.
 For this reasonning to be correct, It implies that current drawn via other parts of the circuit is insignificant.
@@ -69,9 +69,11 @@ The Arduino Leonardo is built around atmega32u4 microchip, that tolerates voltag
 Also, it assimilates voltage to HIGH value only if above 3.5V.
 
 This is what leads to use a voltage devider with R2 and R3. Knowing that provided voltage is 12V, we need:
-- (12-5.5)/12< R2/R3 < (12-3.5)/12
-- 0.54 < R2 / R3 < 0.71
-- 0.54R3 < R2 < 0.71R3
+```
+(12-5.5)/12< R2/R3 < (12-3.5)/12
+<=> 0.54 < R2 / R3 < 0.71
+<=> 0.54R3 < R2 < 0.71R3
+```
 
 
 
