@@ -1,9 +1,11 @@
 This was realized in France (Lyon), based on standards, units of that country. Good to also remember that sector voltage in France is 220v.
 
-Below is what I used.
+Below is what I used. Links are meant to give you the closest idea of what I used, and a price estimation. 
 
 I purchased part of these components and tools at local stores. Some were part of larger sets, some I already had, etc.
-Links are meant to give you the closest idea of what I used, and a price estimation. Up to you to find better bargain or quality elsewhere. Keep in mind that purchaising at local store will generally cost much more, but will be immediately available.
+ Up to you to find better bargain or quality elsewhere. For instance, I used BC337 transistors not because they were the best choice for the project, but because I had them already!
+
+Also, Keep in mind that purchaising at local store will generally cost much more, but will be immediately available.
 
 
 ## Raw material
