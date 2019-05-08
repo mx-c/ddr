@@ -8,9 +8,9 @@ I purchased part of these components and tools at local stores. Some were part o
 Also, Keep in mind that purchaising at local store will generally cost much more, but will be immediately available.
 
 
-## Raw material
+## Supplies
 
-### Electronics and wiring
+### Electronics and wiring supplies
 - 4 [fuses 50 mA](https://fr.farnell.com/schurter/0034-6001/fuse-pcb-50ma-250v-fast-acting/dp/1211989)
 - 1 [fuse 100 mA](https://fr.farnell.com/littelfuse/37001000430/fusible-tr5-quick-bfaible-100ma/dp/9515895)
 - 1 [prototyping board](https://www.digikey.fr/catalog/en/partgroup/7050-100-board/8117) for soldering 100 mm x 100 mm
@@ -30,13 +30,13 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 - common aluminium foil
 - 6 sheets of paper
 
-### Fastening
+### Fastening supplies
 - solder
 - 24 screws Ø 7mm / 1.5mm length 
 - 32  screws  Ø 8mm / 25 mm length
 - [8 washers Ø 6mm inside hole ( Ø 20mm outside)](https://www.castorama.fr/rondelles-plates-larges-de-reparation-en-acier-au-carbone-o-6mm-10-pieces/3663602753995_CAFR.prd)
 
-### Structure
+### Frame supplies
 - 1 base board MDF 122 mm x 122 mm x 15mm
 - 5 stationary panels MDF 380 mm x 380 mm x 15 mm
 - 4 button panels MDF 380 mm x 380 mm x 10 mm
@@ -47,7 +47,7 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 - 1 sheet of [low grit sandpaper](https://www.leroymerlin.fr/v3/p/produits/feuille-abrasive-230-x-280-mm-grains-40-e55263) (for chamfers)
 - 1 [bottle of wood glue](https://www.leroymerlin.fr/v3/p/produits/colle-a-bois-rapide-special-materiaux-sader-250g-e35131) 250g
 
-### Finish and rendering
+### Finish and rendering supplies
 
 - 0.5 L of white [primer](https://www.leroymerlin.fr/v3/p/produits/sous-couche-avant-peinture-sol-interieur-luxens-blanc-0-5-l-e1401134107)
 - 0.5 L of [paint](https://www.leroymerlin.fr/v3/p/produits/peinture-sol-interieur-haute-resistance-luxens-gris-galet-n-1-0-5-l-e1400829458) (colour of your choosing)
