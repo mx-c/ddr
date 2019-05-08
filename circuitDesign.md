@@ -148,6 +148,6 @@ Schema of the final design:
 
 Here is the real life output:
 
-![PCB_Real Commented](PCB_real_commented.jpeg)
+![PCB_Real Commented](./assets/PCB_real_commented.jpeg)
 
 
