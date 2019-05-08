@@ -106,11 +106,11 @@ To determine optimal value for `R1`, I fumbled around a little. Below is the rep
 | 6.6 kΩ 	| 11.3v 	| 1.7 mA  	| 10.5v 	| 47.7 mA 	|
 | 10 kΩ  	| 11.3v  	| 1 mA    	| 8.18v 	| 37 mA   	|
 
-`R1` : resistance value of R1
-`ΔVR1` : difference of voltage between R1 terminals
-`IB`: current going through the base
-`ΔVL`: voltage drop between Load terminals (in these tests, LED strip was mocked by a 200Ω resistor)
-`IL`: current going through the load
+- `R1` : resistance value of R1
+- `ΔVR1` : difference of voltage between R1 terminals
+- `IB`: current going through the base
+- `ΔVL`: voltage drop between Load terminals (in these tests, LED strip was mocked by a 200Ω resistor)
+- `IL`: current going through the load
 
 It is very clear that amplification factor of the transistor has no impact until 5kΩ or so, aka transistor is saturated.
 Then we find our ± 30x amplification factor.
@@ -124,16 +124,17 @@ current going through transistor's base: `U/R = 12/4700 = 2.5 mA`
 #### R2 and R3
 
 R2 depends on R3. I consider that if R2 + R3 ± 100 kΩ it is reasonnable as we now have:
-current going through Load: `54 mA`
-current going through transistor's base: `U/R = 12/4700 = 2.5 mA`
-current going through R2 then R3: `U/R = 12/100000 = 0.12 mA`
-current going through R2 and pin: `U/R = 12/(R2+100000000) ~ 0 `
+- current going through Load: `54 mA`
+- current going through transistor's base: `U/R = 12/4700 = 2.5 mA`
+- current going through R2 then R3: `U/R = 12/100000 = 0.12 mA`
+- current going through R2 and pin: `U/R = 12/(R2+100000000) ~ 0 `
 
-If we round to 60mA current a pad, it means that activating all 4 pads at the same time (which never happens) would draw to ground 240 mA. There remains a comfortable margin before reaching the maximum 400 mA of Arduino's rating.
+If we round it up to 60mA current a pad, it means that activating all 4 pads at the same time (which never happens) would draw to ground 240 mA. There remains a comfortable margin before reaching the maximum 400 mA of Arduino's rating.
 
 Also, it makes me things easier because existing resistor values of 47kΩ and 68kΩ amount to more than 100kΩ, and:
-`68kΩ/47kΩ = 0.69`
-It means that R2 = 47kΩ and R3 = 68kΩ respects the above target ` 0.54R3 < R2 < 0.71R3`.
+- `68kΩ/47kΩ = 0.69`
+
+It means that R2 = 47kΩ and R3 = 68kΩ respects the above target: ` 0.54R3 < R2 < 0.71R3`.
 
 Yay !
 
