@@ -1,6 +1,9 @@
 # Circuit design
 
 ## General design
+
+Schema of the created design:
+
 ![PCB General Design](./assets/pcb_general_design.png)
 
 `R1`, `R2`, `R3`: Resistors
@@ -83,16 +86,67 @@ This is what leads to use a voltage devider with R2 and R3. Knowing that provide
 
 ## Visual summary of the constraints and resolution
 
+Schema to summarize:
+
 ![PCB Annotated design](./assets/pcb_annotated_design.png)
 
 ### Resolution
 
+#### R1
+
 First thing to determine is the highest value possible able for R1 able to saturate the transistor.
+
+To determine optimal value for `R1`, I fumbled around a little. Below is the report depending of `R1` values:
+
+| R1     	| ΔVR1  	| IB      	| ΔVL   	| IL      	|
+|--------	|-------	|---------	|-------	|---------	|
+| 1 kΩ   	| 11.3v 	| 11 mA   	| 11.9v 	| 54 mA   	|
+| 2 kΩ   	| 11.3v 	| 5.5 mA  	| 11.8v 	| 54 mA   	|
+| 4 kΩ   	| 11.3v 	| 2.85 mA 	| 11.8v 	| 54 mA   	|
+| 6.6 kΩ 	| 11.3v 	| 1.7 mA  	| 10.5v 	| 47.7 mA 	|
+| 10 kΩ  	| 11.3v  	| 1 mA    	| 8.18v 	| 37 mA   	|
+
+`R1` : resistance value of R1
+`ΔVR1` : difference of voltage between R1 terminals
+`IB`: current going through the base
+`ΔVL`: voltage drop between Load terminals (in these tests, LED strip was mocked by a 200Ω resistor)
+`IL`: current going through the load
+
+It is very clear that amplification factor of the transistor has no impact until 5kΩ or so, aka transistor is saturated.
+Then we find our ± 30x amplification factor.
+
+Simplest and optimal closest Resistor value for R1 is therefore 4.7 kΩ.
+
+It means that when circuit is closed.
+current going through Load: `54 mA`
+current going through transistor's base: `U/R = 12/4700 = 2.5 mA`
+
+#### R2 and R3
+
+R2 depends on R3. I consider that if R2 + R3 ± 100 kΩ it is reasonnable as we now have:
+current going through Load: `54 mA`
+current going through transistor's base: `U/R = 12/4700 = 2.5 mA`
+current going through R2 then R3: `U/R = 12/100000 = 0.12 mA`
+current going through R2 and pin: `U/R = 12/(R2+100000000) ~ 0 `
+
+If we round to 60mA current a pad, it means that activating all 4 pads at the same time (which never happens) would draw to ground 240 mA. There remains a comfortable margin before reaching the maximum 400 mA of Arduino's rating.
+
+Also, it makes me things easier because existing resistor values of 47kΩ and 68kΩ amount to more than 100kΩ, and:
+`68kΩ/47kΩ = 0.69`
+It means that R2 = 47kΩ and R3 = 68kΩ respects the above target ` 0.54R3 < R2 < 0.71R3`.
+
+Yay !
 
 
 
 ## Decisions and final design
+
+Schema of the final design:
+
 ![PCB Final Design](./assets/pcb_final_design.png)
+
+
+Here is the real life output:
 
 
 
