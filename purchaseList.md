@@ -26,9 +26,9 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 - 1  spray bottle of [neoprene glue](https://www.leroymerlin.fr/v3/p/produits/colle-aerosol-neoprene-multi-usages-sader-200ml-e35093) 200 ml
 - *6 [3-wires junction](https://www.leroymerlin.fr/v3/p/produits/5-minibornes-automatiques-a-levier-0-08-a-4-mm2-3-entrees-rigide-souple-wago-e1500746887) (I use 221 serie wago, 8mm height)
 - * 10 or 20 [2-wires junction](https://www.leroymerlin.fr/v3/p/produits/10-minibornes-automatiques-a-levier-0-08-a-4-mm2-2-entrees-rigide-souple-wago-e1500804633) 
-- 3.5 m red wire (you should be using 2.5m)
-- 3.5 m black wire (you should be using 2.5m)
-- 5 m green wire (you should be using 3.5m)
+- 3.5 m red wire, ideally 0.3 mm2 monofilament (you should be using 2.5m)
+- 3.5 m black wire ideally 0.3 mm2 monofilament (you should be using 2.5m)
+- 5 m green wire ideally 0.3 mm2 monofilament(you should be using 3.5m)
 - 1 [cable clamp](https://www.leroymerlin.fr/v3/p/produits/lot-de-25-colliers-diam-2-a-50-mm-l-195-mm-e1400914882)
 - [insulating tape of different colors](https://www.leroymerlin.fr/v3/p/produits/lot-de-6-rubans-adhesifs-voltman-l-5-m-x-l-15-mm-e181273) (red, black, green, yellow, blue, orange)
 - 1 wooden box with enough room to enclose the Arduino leonardo (recycled)
