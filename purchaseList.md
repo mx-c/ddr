@@ -18,17 +18,18 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 - 4 resistors 6800 Ohm
 - 4 resistors 47000 Ohm
 - 4 resistors 4700 Ohm
+- 1.5 meters [RGB LED strip](https://www.leroymerlin.fr/v3/p/produits/kit-ruban-led-1-5m-multicolore-e1500922964) 
+- AC 220v -> DC 12v/1A (12W) transformer (comes with the LED strip)
+- [1 Arduino Leonardo](https://www.ag-electronique.fr/modules-arduino/47-arduino-leonardo-velard-a000052-8058333491127.html)
+- common aluminium foil for contacts
+- 6 sheets of paper to strenghten contacts
+- 1  spray bottle of [neoprene glue](https://www.leroymerlin.fr/v3/p/produits/colle-aerosol-neoprene-multi-usages-sader-200ml-e35093) 200 ml
 - *6 [3-wires junction](https://www.leroymerlin.fr/v3/p/produits/5-minibornes-automatiques-a-levier-0-08-a-4-mm2-3-entrees-rigide-souple-wago-e1500746887) (I use 221 serie wago, 8mm height)
 - * 10 or 20 [2-wires junction](https://www.leroymerlin.fr/v3/p/produits/10-minibornes-automatiques-a-levier-0-08-a-4-mm2-2-entrees-rigide-souple-wago-e1500804633) 
 - 1 [cable clamp](https://www.leroymerlin.fr/v3/p/produits/lot-de-25-colliers-diam-2-a-50-mm-l-195-mm-e1400914882)
-- [1 Arduino Leonardo](https://www.ag-electronique.fr/modules-arduino/47-arduino-leonardo-velard-a000052-8058333491127.html)
-- 1  spray bottle of [neoprene glue](https://www.leroymerlin.fr/v3/p/produits/colle-aerosol-neoprene-multi-usages-sader-200ml-e35093) 200 ml
 - [insulating tape of different colors](https://www.leroymerlin.fr/v3/p/produits/lot-de-6-rubans-adhesifs-voltman-l-5-m-x-l-15-mm-e181273) (red, black, green, yellow, blue, orange)
-- 1.5 meters [RGB LED strip](https://www.leroymerlin.fr/v3/p/produits/kit-ruban-led-1-5m-multicolore-e1500922964) 
-- AC 220v -> DC 12v/1A (12W) transformer (comes with the LED strip)
 - 1 wooden box with enough room to enclose the Arduino leonardo (recycled)
-- common aluminium foil
-- 6 sheets of paper
+
 
 ### Fastening supplies
 - solder
