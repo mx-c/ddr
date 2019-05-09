@@ -45,7 +45,7 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 - 5 stationary panels MDF 380 mm x 380 mm x 15 mm
 - 4 button panels MDF 380 mm x 380 mm x 10 mm
 - 4 riser panels Birch 30 mm x 30 mm x 3 mm
-- *cleat MDF 488 mm x 40 mm x 18 mm (45° angles done with miter box)
+- *cleat MDF 4880 mm x 40 mm x 18 mm (45° angles done with miter box)
 - 20 screw covers
 - [6 meters phone insulating compriband with 3-7 mm expansion capacity](https://www.amazon.fr/Compriband-%C3%A9tanche-fen%C3%AAtres-Largeur-15/dp/B07F812Z88)
 - 1 sheet of [low grit sandpaper](https://www.leroymerlin.fr/v3/p/produits/feuille-abrasive-230-x-280-mm-grains-40-e55263) (for chamfers)
