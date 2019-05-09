@@ -37,7 +37,7 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 - [8 washers Ø 6mm inside hole ( Ø 20mm outside)](https://www.castorama.fr/rondelles-plates-larges-de-reparation-en-acier-au-carbone-o-6mm-10-pieces/3663602753995_CAFR.prd)
 
 ### Frame supplies
-- 1 base board MDF 122 mm x 122 mm x 15mm
+- 1 base board MDF 1220 mm x 1220 mm x 15mm
 - 5 stationary panels MDF 380 mm x 380 mm x 15 mm
 - 4 button panels MDF 380 mm x 380 mm x 10 mm
 - 4 riser panels Birch 30 mm x 30 mm x 3 mm
