@@ -1,3 +1,5 @@
+[Home](./README.md)
+
 This was realized in France (Lyon), based on standards, units of that country. Good to also remember that sector voltage in France is 220v.
 
 Below is what I used. Links are meant to give you the closest idea of what I used, and a price estimation. 
@@ -96,4 +98,4 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 
 
 
-
+[Home](./README.md)
