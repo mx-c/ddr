@@ -1,4 +1,4 @@
-[Home](./README.md)
+[Home](../README.md)
 _____________________________
 
 # Circuit design
@@ -178,4 +178,4 @@ Each will be connected to a dedicated input pin of the arduino.
 
 For each circuit, when its button pad is pressed, the HIGH signal is sent to the dedicated pin, and can be used in a program. At the same time, the connected LED strip lights on.
 
-[Home](./README.md)
+[Home](../README.md)
