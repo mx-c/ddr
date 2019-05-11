@@ -1,6 +1,9 @@
+[Home](./README.md)
+_____________________________
+
 # Circuit design
 
-## [Purchase list for realisation](./purchaseList.md)
+## Purchase list for realisation
 - [Electronic supplies](./purchaseList.md#electronics-and-wiring-supplies)
 - [Electronic Tools](./purchaseList.md#electronics-assets)
 
@@ -93,6 +96,10 @@ This is what leads to use a voltage devider with R2 and R3. Knowing that provide
 <=> 0.54 < R2 / R3 < 0.71
 <=> 0.54R3 < R2 < 0.71R3
 ```
+
+_____________________________
+[Home](./README.md)
+
 
 ## Visual summary of the constraints and resolution
 
