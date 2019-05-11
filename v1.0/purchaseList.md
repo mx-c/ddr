@@ -1,5 +1,6 @@
-[Home](../README.md)    |   [Current Version](./)
-_____________________________
+[Home](../README.md)    |   [Current Version](./) _____________________________
+
+# Purchase list
 
 This was realized in France (Lyon), based on standards, units of that country. Good to also remember that sector voltage in France is 220v.
 
