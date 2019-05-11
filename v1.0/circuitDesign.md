@@ -1,4 +1,4 @@
-[Home](../README.md)    [Current Version](./)
+[Home](../README.md)    |   [Current Version](./)
 _____________________________
 
 # Circuit design
