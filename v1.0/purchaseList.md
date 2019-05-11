@@ -1,4 +1,4 @@
-[Home](../README.md)
+[Home](../README.md)    |   [Current Version](./)
 _____________________________
 
 This was realized in France (Lyon), based on standards, units of that country. Good to also remember that sector voltage in France is 220v.
