@@ -27,6 +27,7 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 - common aluminium foil for contacts
 - 6 sheets of paper to strenghten contacts
 - 1  spray bottle of [neoprene glue](https://www.leroymerlin.fr/v3/p/produits/colle-aerosol-neoprene-multi-usages-sader-200ml-e35093) 200 ml
+- solder
 - *6 [3-wires junction](https://www.leroymerlin.fr/v3/p/produits/5-minibornes-automatiques-a-levier-0-08-a-4-mm2-3-entrees-rigide-souple-wago-e1500746887) (I use 221 serie wago, 8mm height)
 - * 10 or 20 [2-wires junction](https://www.leroymerlin.fr/v3/p/produits/10-minibornes-automatiques-a-levier-0-08-a-4-mm2-2-entrees-rigide-souple-wago-e1500804633) 
 - 3.5 m red wire, ideally 0.3 mm2 monofilament (you should be using 2.5m)
@@ -36,12 +37,6 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 - [insulating tape of different colors](https://www.leroymerlin.fr/v3/p/produits/lot-de-6-rubans-adhesifs-voltman-l-5-m-x-l-15-mm-e181273) (red, black, green, yellow, blue, orange)
 - 1 wooden box with enough room to enclose the Arduino leonardo (recycled)
 
-
-### Fastening supplies
-- solder
-- 24 screws Ø 7mm / 1.5mm length 
-- 32  screws  Ø 8mm / 25 mm length
-- [8 washers Ø 6mm inside hole ( Ø 20mm outside)](https://www.castorama.fr/rondelles-plates-larges-de-reparation-en-acier-au-carbone-o-6mm-10-pieces/3663602753995_CAFR.prd)
 
 ### Frame supplies
 - 1 base board MDF 1220 mm x 1220 mm x 15mm
@@ -54,6 +49,11 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 - 1 sheet of [low grit sandpaper](https://www.leroymerlin.fr/v3/p/produits/feuille-abrasive-230-x-280-mm-grains-40-e55263) (for chamfers)
 - 1 [bottle of wood glue](https://www.leroymerlin.fr/v3/p/produits/colle-a-bois-rapide-special-materiaux-sader-250g-e35131) 250g
 
+### Fastening supplies
+- 24 screws Ø 7mm / 1.5mm length 
+- 32  screws  Ø 8mm / 25 mm length
+- [8 washers Ø 6mm inside hole ( Ø 20mm outside)](https://www.castorama.fr/rondelles-plates-larges-de-reparation-en-acier-au-carbone-o-6mm-10-pieces/3663602753995_CAFR.prd)
+
 ### Finish and rendering supplies
 
 - 0.5 L of white [primer](https://www.leroymerlin.fr/v3/p/produits/sous-couche-avant-peinture-sol-interieur-luxens-blanc-0-5-l-e1401134107)
@@ -64,7 +64,7 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 
 ## Assets (tools)
 
-### Electronics assets
+### Assets for electronics
 - 1 [multimeter](https://www.amazon.fr/Velleman-dvm835-Multim%C3%A8tre-num%C3%A9rique-500-1999-points/dp/B07BDVQ951) (resistance, voltage, intensity, led testing and sound upon connectivity). 
 - 1 [soldering Iron](https://www.velleman.eu/products/view/?country=fr&lang=fr&id=349590)
 - 1 [breadboard](https://fr.farnell.com/mcm/21-18936/carte-de-prototypage-55-x-83-mm/dp/2855018?st=breadboard) (for testing purposes)
@@ -72,7 +72,7 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 - 2 aligator clips (for testing purposes)
 - 1 cutter
 
-### Structure assets
+### Assets for the frame and fastening
 - 1 [drill](https://www.leroymerlin.fr/v3/p/perceuse-l1501561703?queryredirect=perceuse)
 - [a drill-bit set for wood](https://www.leroymerlin.fr/v3/p/produits/lot-de-8-meches-a-bois-robustline-diam-3-a-10-mm-bosch-e1501847408)
 - 1 [wood scissors (width: 20mm)](https://www.leroymerlin.fr/v3/p/produits/ciseaux-de-sculpteur-dexter-de-16-a-20-mm-e56114)
@@ -86,13 +86,11 @@ Also, Keep in mind that purchaising at local store will generally cost much more
 - optional but recommanded for angle precision: compass
 - 1 bucket
 - 1 wooden board to cut with cutter on (recycled)
-
-### Fastening assets
 - 1 big screwdrivers
 - 1 small screwdriver
 
 ### Finish and rendering assets
-- 1 small [paint roll](https://www.leroymerlin.fr/v3/p/produits/kit-d-outils-pour-peinture-mur-et-plafond-dexter-e1401293955)
+- 1 [small paint roll](https://www.leroymerlin.fr/v3/p/produits/kit-d-outils-pour-peinture-mur-et-plafond-dexter-e1401293955)
 - 1 [paint brush](https://www.leroymerlin.fr/v3/p/produits/pinceau-plat-pour-peindre-dexter-30-mm-e1401395484)
 - 1 [paint tray](https://www.leroymerlin.fr/v3/p/produits/bac-a-peinture-rouleau-180-mm-nespoli-e183535)
 - 1 towel
