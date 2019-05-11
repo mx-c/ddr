@@ -7,7 +7,7 @@ _____________________________
 
 ## [Electronic circuit](./circuitDesign.md)
 
-## [Arduino code](./arduinoCode.md)
+## [Arduino code](./arduino)
 
 ## [Frame](./frame.md)
 _____________________________
