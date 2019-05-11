@@ -2,7 +2,7 @@
 This repository aims at describing thoroughly a build of Dance Dance Revolution pad I made that works.
 Its version 1.0 wood frame is hightly inspired by [Super Make Something]. 
 
-## DDR version 1.0
+## [DDR version 1.0](./v1.0)
 
 ### [Purchase list](./v1.0/purchaseList.md)
 
