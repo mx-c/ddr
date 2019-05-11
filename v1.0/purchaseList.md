@@ -1,4 +1,5 @@
-[Home](../README.md)    |   [Current Version](./) _____________________________
+[Home](../README.md)    |   [Current Version](./)
+_____________________________
 
 # Purchase list
 
