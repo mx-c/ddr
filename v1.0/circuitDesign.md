@@ -11,7 +11,7 @@ _____________________________
 
 Schema of the created design for the PCB of one pad:
 
-![PCB General Design](./assets/pcb_general_design.png)
+![PCB General Design](../assets/pcb_general_design.png)
 
 - `R1`, `R2`, `R3`: Resistors
 - `T`: NPN Transistor (B,C,E stand respectively for Base, Collector, Emitter)
@@ -105,7 +105,7 @@ _____________________________
 
 Schema to summarize:
 
-![PCB Annotated design](./assets/pcb_annotated_design.png)
+![PCB Annotated design](../assets/pcb_annotated_design.png)
 
 ### Resolution
 
@@ -162,12 +162,12 @@ Yay !
 
 Schema of the final design:
 
-![PCB Final Design](./assets/pcb_final_design.png)
+![PCB Final Design](../assets/pcb_final_design.png)
 
 
 Now you can go get [electronic supplies](./purchaseList.md#electronics-and-wiring-supplies) and [electronic tools])(./purchaseList.md#electronics-assets) and execute! Here is what it should look like:
 
-![PCB_Real Commented](./assets/PCB_real_commented.jpeg)
+![PCB_Real Commented](../assets/PCB_real_commented.jpeg)
 
 ## Conclusion
 
